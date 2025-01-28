@@ -1,0 +1,153 @@
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form.workspace {
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+form.login {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="url"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="username"],
+select {
+    width: 40%;
+    padding: 2px;
+    margin: 5px;
+    border: 1px solid #bbb3b3;
+    border-radius: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button.secondary {
+    background-color: #2196F3;
+    color: white;
+}
+
+button.secondary:hover {
+    background-color: #1976D2;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+p.success {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+p.error {
+    text-align: center;
+    color: #f44336;
+    margin-top: 10px;
+}
+.work {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+.work li {
+    background-color: #f6da5f;
+    color: rgb(44, 38, 38);
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    min-width: 100px;
+    max-width: 120px;
+    word-wrap: break-word;
+  }
+  
+.work li:hover {
+    transform: scale(1.05);
+    background-color: #c19e02;
+    color: black;
+  }
+  
