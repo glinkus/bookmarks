@@ -7,7 +7,6 @@ A full-stack bookmarks management application that allows users to save, organiz
 - Add, edit, and delete bookmarks
 - Organize bookmarks into categories or tags
 - Search functionality to quickly find saved links
-- Responsive and modern UI
 - RESTful API for bookmark operations
 
 ## Tech Stack
